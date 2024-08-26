@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net8.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net8.0\appsettings.json" />
+    <Content Include="bin\Debug\net8.0\ChessAPI.deps.json" />
+    <Content Include="bin\Debug\net8.0\ChessAPI.runtimeconfig.json" />
+    <Content Include="bin\Debug\net8.0\WebApplicationDemo.deps.json" />
+    <Content Include="bin\Debug\net8.0\WebApplicationDemo.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net8.0\ChessAPI.dll" />
+    <None Include="bin\Debug\net8.0\ChessAPI.exe" />
+    <None Include="bin\Debug\net8.0\ChessAPI.pdb" />
+    <None Include="bin\Debug\net8.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net8.0\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\net8.0\Npgsql.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="bin\Debug\net8.0\WebApplicationDemo.dll" />
+    <None Include="bin\Debug\net8.0\WebApplicationDemo.exe" />
+    <None Include="bin\Debug\net8.0\WebApplicationDemo.pdb" />
+    <None Include="ChessAPI.csproj" />
+    <None Include="ChessAPI.csproj.user" />
+    <None Include="ChessAPI.sln" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Npgsql" Version="8.0.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+</Project>
